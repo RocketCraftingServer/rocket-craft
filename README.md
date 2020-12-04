@@ -1,8 +1,9 @@
 
 ## Unreal Engine Project
 ## Based on `Unreal Motion Graphics` to create 2d UI elements.
-### Best solution for multiplatform developing choose. 
-### 3D graphics is optimal you can use any standard features from UE4.24.
+
+#### I chose the best solution for developing multiple platforms 
+#### 3D graphics is optimal you can use any standard features from UE4.24.
 #### Version `Full Spectar`
 #### Nikola maximumroulette.com 2021
 
