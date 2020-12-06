@@ -18,6 +18,10 @@
   for old android 5/6/7/8... os. In other way 4.24 is one of the last
   releases. Future upgrade will be easy.
 
+### Screenshots:
+
+![]()
+
 #### TODO
 
  - Access any utf8 file data.
