@@ -3,10 +3,10 @@
 ### Unreal Engine Project
 ### Based on `Unreal Motion Graphics` to create 2d UI elements.
 
-#### I chose the best solution for developing multiple platforms 
+#### I choose the best solution for developing multiple platforms. (Rocket is alias for ue).
 #### 3D graphics is optimal you can use any standard features from UE4.24.
 #### Version `Full Spectar`
-#### Nikola maximumroulette.com 2021
+#### Nikola https://maximumroulette.com 2021
 
 - Use Unreal engine to create classic 2d context applications.
   Similar to the standard web application.
@@ -18,22 +18,19 @@
   for old android 5/6/7/8... os. In other way 4.24 is one of the last
   releases. Future upgrade will be easy.
 
+
+
 ### Screenshots:
 
 #### Register form
 ![](https://github.com/zlatnaspirala/rocket-craft/blob/master/non-project-files/registerform-dev.png)
 
-
 #### TODO
 
  - Access any utf8 file data.
  - Handling JSON response/response.
- - Create free of choose to use account session:
-    -  Api-mashine 
-       Create social app.
-       https://github.com/zlatnaspirala/api-mashine
-    -  kms-ov-integrator
-       Node.js https://github.com/zlatnaspirala/kms-ov-integrator
+ - Create free of choose to use account session with
+   rocketCraftServer.
 
 #### Rocket-craft Blueprints Features:
 
@@ -56,9 +53,9 @@
   |                                      |    |     ANDROID                     iOS                       |
   |      DESKTOP  PLATFORMS              |    |  +------------------------+  +-------------------------+  |
   |                                      |    |  |                        |  |                         |  |
-  |      +------------------------+      |    |  | ue 4.22 4.24 for old   |  | Ue version must be      |  |
-  |      | WINDOWS                |      |    |  |                        |  | updated in moment       |  |
-  |      +------------------------+      |    |  | ue 4.25 for super new  |  | of opengles deplacment  |  |
+  |    +----------------------------+    |    |  | ue 4.22 4.24 for old   |  | Ue version must be      |  |
+  |    | WINDOWS [connectivity-works]    |    |  |                        |  | updated in moment       |  |
+  |    +----------------------------+    |    |  | ue 4.25 for super new  |  | of opengles deplacment  |  |
   |                                      |    |  |                        |  | with metal.             |  |
   |      +------------------------+      |    |  |                        |  |                         |  |
   |      | MAC OS                 |      |    |  |                        |  |                         |  |
@@ -69,7 +66,18 @@
   |      +------------------------+      |    |  |                        |  |                         |  |
   |                                      |    |  +------------------------+  +-------------------------+  |
   +--------------------------------------+    +-----------------------------------------------------------+
+  +--------------------------------------+
+  |                                      |
+  |      WEB PLATFORM                    |
+  |                                      |
+  |    +----------------------------+    |
+  |    | LAN test[connectivity-works]    |
+  |    +----------------------------+    |
+  |                                      |
+  +--------------------------------------+
 
+
+[connectivity-works]
 </pre>
   
 ### HTML5 Old Tradicional way
@@ -90,6 +98,14 @@
 
 ```cpp
   git clone -b https://github.com/UnrealEngineHTML5/UnrealEngine
+```
+
+#### Android 
+
+  - Google play licence key:
+
+```js
+  keytool -genkey -v -keystore barbarian-road-mashines-key.keystore -alias barbarian-road-mashines -keyalg RSA -keysize 2048 -validity 10000
 ```
 
 #### Windows - Linux - Mac os
