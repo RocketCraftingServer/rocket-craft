@@ -1,8 +1,18 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.22",
+	"EngineAssociation": "{8CBE7F86-4E1E-A400-EA42-298F4D5F129B}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Brm",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "PhysXVehicles",
@@ -16,14 +26,6 @@
 			"Name": "VaRestPlugin",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/e47be161e7a24e928560290abd5dcc4f"
-		},
-		{
-			"Name": "PixelStreaming",
-			"Enabled": true
-		},
-		{
-			"Name": "OnlineFramework",
-			"Enabled": true
 		}
 	]
 }
