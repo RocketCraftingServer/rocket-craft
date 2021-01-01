@@ -83,7 +83,7 @@
 ### HTML5 Old Tradicional way
 
   - Use version `4.22`
-  No need for build engine from source.
+  No need for build engine from source for client client-server.
   opengles2.0 or 3.1
   
 ### HTML5/webGL New way:
@@ -93,8 +93,12 @@
   Version Moder solution: 
   UnrealEngine-4.24.3-html5-1.39.18
 
+   Maybe can be full solution for now!
+
  https://github.com/UnrealEngineHTML5/UnrealEngine/tree/4.24.3-html5-1.39.18
 
+  There is a trouble with single-brach you can just clone whole project.
+  
 ```cpp
   git clone -b 4.24.3-html5-1.39.18 --single-branch https://github.com/UnrealEngineHTML5/UnrealEngine ue4-4.24.3-html5
 ```
