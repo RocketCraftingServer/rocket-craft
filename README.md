@@ -88,7 +88,11 @@
   
 ### HTML5/webGL New way:
 
-  - Only opengles 3.1
+  - Only opengles 3.1 maybe 2.0 ??? from html5 docs repo.
+
+  Version Moder solution: 
+  UnrealEngine-4.24.3-html5-1.39.18
+
 
 ```cpp
   git clone -b 4.24.3-html5-1.39.18 --single-branch https://github.com/UnrealEngineHTML5/UnrealEngine ue4-4.24.3-html5
