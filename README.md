@@ -93,6 +93,7 @@
   Version Moder solution: 
   UnrealEngine-4.24.3-html5-1.39.18
 
+ https://github.com/UnrealEngineHTML5/UnrealEngine/tree/4.24.3-html5-1.39.18
 
 ```cpp
   git clone -b 4.24.3-html5-1.39.18 --single-branch https://github.com/UnrealEngineHTML5/UnrealEngine ue4-4.24.3-html5
