@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{8CBE7F86-4E1E-A400-EA42-298F4D5F129B}",
+	"EngineAssociation": "{9F82C90C-48DA-BC3F-915C-9C99798C3830}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -14,10 +14,6 @@
 		}
 	],
 	"Plugins": [
-		{
-			"Name": "PhysXVehicles",
-			"Enabled": true
-		},
 		{
 			"Name": "RawInput",
 			"Enabled": true
