@@ -2,7 +2,7 @@
 # Rocket Craft
 ### Unreal Engine Project
 ### Based on `Unreal Motion Graphics` to create 2d UI elements.
-
+### UNDERCONSTRUCT
 #### I choose the best solution for developing multiple platforms. (Rocket is alias for ue).
 #### 3D graphics is optimal you can use any standard features from UE4.24.
 #### Version `Full Spectar`
@@ -17,7 +17,6 @@
   Explanation: with opengles 2.0 we can still build our application 
   for old android 5/6/7/8... os. In other way 4.24 is one of the last
   releases. Future upgrade will be easy.
-
 
 
 ### Screenshots:
@@ -92,17 +91,21 @@
 
   Version Moder solution: 
   UnrealEngine-4.24.3-html5-1.39.18
+  UnrealEngine-4.24.3-html default branch
 
-   Maybe can be full solution for now!
+  Under folder 4.24.0/
+  Maybe can be full solution for now!
 
+ Download default html branch or use 
  https://github.com/UnrealEngineHTML5/UnrealEngine/tree/4.24.3-html5-1.39.18
 
-  There is a trouble with single-brach you can just clone whole project.
+  There is a trouble with single-brach you can just clone whole project or download zip of current branch.
   
 ```cpp
   git clone -b 4.24.3-html5-1.39.18 --single-branch https://github.com/UnrealEngineHTML5/UnrealEngine ue4-4.24.3-html5
 ```
 
+  You can clone from origin nut not html5 pack support:
   Or clone whole poject . This can be heavy for your hard drive.
 
 ```cpp
@@ -117,10 +120,30 @@
   keytool -genkey -v -keystore barbarian-road-mashines-key.keystore -alias barbarian-road-mashines -keyalg RSA -keysize 2048 -validity 10000
 ```
 
-#### Windows - Linux - Mac os
+#### Windows - Linux - Mac os SETUP unreal engine from source:
 
 ```
-  Setup.bat/Setup.command/Setup.sh
+  Setup.bat/Setup.command/Setup.sh                                              may take up to an hour or so
   HTML5Setup.sh                                                                 may take up to an hour or so
   GenerateProjectFiles.bat/GenerateProjectFiles.command/GenerateProjectFiles.sh may take up to 5 minutes
 ```
+
+#### DedicatedServer/AppServerClient servers build
+
+Ue4 must be builded from source if you wanna build dedicated server.
+This client part but for core networks related to the `ue4` this is also dedicated server project generator:
+
+Note:
+ - HTML5 or web app can't be host server (Browsers tech one of the main roles).
+   but we cant use it like client it is enough for playing/using games/apps.
+
+Successed build dedicated for linux:
+
+```
+ PID    USER      PR  NI    VIRT    RES    SHR S   %CPU   %MEM  TIME  + COMMAND
+ 502469 unreal    20      287952  46860   6600 S   1.7   5.7   1:07.52 BrmServer-Linux
+```
+
+I am quite happy with these results but you have to pay attention to many things.
+
+Be aware that web clients are more vulnerable on error/warnings.
