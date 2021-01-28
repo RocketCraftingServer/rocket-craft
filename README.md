@@ -37,43 +37,72 @@
      
 <pre>
 
-    +---------------------------------------+
-    |                                       |
-    |          Build from source            |
-    |            Unreal Engine              |
-    |  +---------------------------------+  |
-    |  | One source                      |  |
-    |  | HUD widgets used for 2d context |  |
-    |  | Use 3d graphics is optimal      |  |
-    |  +---------------------------------+  |
-    +---------------------------------------+
+  
+                                                   +-----------------------------------------------+
+                                                   |                                               |
+                                                   |   Build from source Unreal Engine             |
+                                                   |   Current active and ultimate version         |
+                                                   |   is 4.24.3 Read more from html5 ue4          |
+                                                   |   exstension github repo readme files.        |
+                                                   |                                               |
+                                                   |                                               |
+                                                   |        Ultimate multiplatform solution.       |
+                                                   |       +-------------------------------+       |
+                                                   |       |                               |       |
+                                                   |       |   ONE SOURCE ALL PLATFORMS    |       |
+                                                   |       |                               |       |
+                                                   |       +-------------------------------+       |
+                                                   |                                               |
+                                                   |  UMG 2d Context  PhysX                        |
+                                                   |                                               |
+                                                   +-----------------------------------------------+
 
-  +--------------------------------------+    +-----------------------------------------------------------+
-  |                                      |    |     ANDROID                     iOS                       |
-  |      DESKTOP  PLATFORMS              |    |  +------------------------+  +-------------------------+  |
-  |                                      |    |  |                        |  |                         |  |
-  |    +----------------------------+    |    |  | ue 4.22 4.24 for old   |  | Ue version must be      |  |
-  |    | WINDOWS [connectivity-works]    |    |  |                        |  | updated in moment       |  |
-  |    +----------------------------+    |    |  | ue 4.25 for super new  |  | of opengles deplacment  |  |
-  |                                      |    |  |                        |  | with metal.             |  |
-  |      +------------------------+      |    |  |                        |  |                         |  |
-  |      | MAC OS                 |      |    |  |                        |  |                         |  |
-  |      +------------------------+      |    |  |                        |  |                         |  |
-  |                                      |    |  |                        |  |                         |  |
-  |      +------------------------+      |    |  |                        |  |                         |  |
-  |      | LINUX                  |      |    |  |                        |  |                         |  |
-  |      +------------------------+      |    |  |                        |  |                         |  |
-  |                                      |    |  +------------------------+  +-------------------------+  |
-  +--------------------------------------+    +-----------------------------------------------------------+
-  +--------------------------------------+
-  |                                      |
-  |      WEB PLATFORM                    |
-  |                                      |
-  |    +----------------------------+    |
-  |    | LAN test[connectivity-works]    |
-  |    +----------------------------+    |
-  |                                      |
-  +--------------------------------------+
+                                                                                                                                                                                       Android
+                      +-----------------------------------+  +----------------------------------+  +-----------------------------------+
+                      | Windows 10 OS             Client  |  | Linux OS                 Client  |  | MacOS                     Client  |
+                      +-----------------------------------+  +----------------------------------+  +-----------------------------------+
+                      | Run like client | Run like server |  | Run like client | Run like server|  | Run like client | Run like server |
+                      +-----------------------------------+  +----------------------------------+  +-----------------------------------+                                                Windows 10
+                      |                 |                 |  |                 |                |  |                 |                 |                                                MacOS
+                      |                 |                 |  |                 |                |  |                 |                 |
+                      |  Solo play      | Client become   |  |  Solo play      | Client become  |  |  Solo play      | Client become   |                                           Client become
+                      |                 | host server.    |  |                 | host server.   |  |                 | host server.    |                                           host server.
+                      |  Connect to     | Allow others to |  |  Connect to     | Allow others to|  |  Connect to     | Allow others to |                                           Allow others to
+                      |  any server     | connect.        |  |  any server     | connect.       |  |  any server     | connect.        |                                           connect.
+                      |                 |                 |  |                 |                |  |                 |                 |
+                      +-----------------------------------+  +----------------------------------+  +-----------------------------------+
+                                                                      |
+                                                                      |
+    +-----------------------------------+                             |                                              +-----------------------------------+
+    | Android                   Client  |                             |                                              | iOS                       Client  |
+    +-----------------------------------+                             v                                              +-----------------------------------+
+    | Run like client | Run like server |                    +----------------------------------+                    | Run like client | Run like server |
+    +-----------------------------------+                    |         Dedicated server         |                    +-----------------------------------+
+    |                 |                 |                    +----------------------------------+                    |                 |                 |
+    |                 |                 |                    |                                  |                    |                 |                 |
+    |  Solo play      | Client become   |                    |                                  |                    |  Solo play      | Client become   |
+    |                 | host server.    |          +-------->+                                  |                    |                 | host server.    |
+    |  Connect to     | Allow others to |          |         |                                  |                    |  Connect to     | Allow others to |
+    |  any server     | connect.        |          |         |                                  |                    |  any server     | connect.        |
+    |                 |                 |          |         +----------------------------------+                    |                 |                 |
+    +-----------------------------------+          |                                                                 +-----------------------------------+
+           |                                       |
+           |                                       |
+           |                                       |
+           |                                       |         +-----------------------------------+
+           +---------------------------------------+         | iOS                       Client  |
+                                                             +-----------------------------------+
+                                                             | Run like client | Run like server |
+                                                             +-----------------------------------+
+                                                             |                 |                 |
+                                                             |                 | Not possible    |
+                                                             |  Solo play      |                 |
+                                                             |                 |                 |
+                                                             |  Connect to     |                 |
+                                                             |  any server     |                 |
+                                                             |                 |                 |
+                                                             +-----------------------------------+
+
 
 
 [connectivity-works]
