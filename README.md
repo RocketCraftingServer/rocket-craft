@@ -12,12 +12,14 @@
   Similar to the standard web application.
   Rocket is most powerfull cross platform tool i need to use it.
   4.24 version is most interest checkpoint for UE.
-  Last version with `only` opengles 2.0 devices support (mobile).
+  Last version with opengles 2.0 devices support (mobile).
   Also is version where we use new feature `exstension HTML5 build`.
   Explanation: with opengles 2.0 we can still build our application 
   for old android 5/6/7/8... os. In other way 4.24 is one of the last
   releases. Future upgrade will be easy.
 
+  Please join the team and participate:
+  https://github.com/orgs/RocketCraftingServer/teams/rocketcraftingteam
 
 ### Screenshots:
 
