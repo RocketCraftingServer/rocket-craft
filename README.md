@@ -38,73 +38,72 @@
  - Access JSON file data from any web server.
      
 <pre>
+                                               +-----------------------------------------------+
+                                               |                                               |
+                                               |   Build from source Unreal Engine             |
+                                               |   Current active and ultimate version         |
+                                               |   is 4.24.3 Read more from html5 ue4          |
+                                               |   exstension github repo readme files.        |
+                                               |                                               |
+                                               |                                               |
+                                               |        Ultimate multiplatform solution.       |
+                                               |       +-------------------------------+       |
+                                               |       |                               |       |
+                                               |       |   ONE SOURCE ALL PLATFORMS    |       |
+                                               |       |                               |       |
+                                               |       +-------------------------------+       |
+                                               |                                               |
+                                               |  UMG 2d Context  PhysX                        |
+                                               |                                               |
+                                               +-----------------------------------------------+
 
-  
-                                                   +-----------------------------------------------+
-                                                   |                                               |
-                                                   |   Build from source Unreal Engine             |
-                                                   |   Current active and ultimate version         |
-                                                   |   is 4.24.3 Read more from html5 ue4          |
-                                                   |   exstension github repo readme files.        |
-                                                   |                                               |
-                                                   |                                               |
-                                                   |        Ultimate multiplatform solution.       |
-                                                   |       +-------------------------------+       |
-                                                   |       |                               |       |
-                                                   |       |   ONE SOURCE ALL PLATFORMS    |       |
-                                                   |       |                               |       |
-                                                   |       +-------------------------------+       |
-                                                   |                                               |
-                                                   |  UMG 2d Context  PhysX                        |
-                                                   |                                               |
-                                                   +-----------------------------------------------+
 
-                                                                                                                                                                                       Android
-                      +-----------------------------------+  +----------------------------------+  +-----------------------------------+
-                      | Windows 10 OS             Client  |  | Linux OS                 Client  |  | MacOS                     Client  |
-                      +-----------------------------------+  +----------------------------------+  +-----------------------------------+
-                      | Run like client | Run like server |  | Run like client | Run like server|  | Run like client | Run like server |
-                      +-----------------------------------+  +----------------------------------+  +-----------------------------------+                                                Windows 10
-                      |                 |                 |  |                 |                |  |                 |                 |                                                MacOS
-                      |                 |                 |  |                 |                |  |                 |                 |
-                      |  Solo play      | Client become   |  |  Solo play      | Client become  |  |  Solo play      | Client become   |                                           Client become
-                      |                 | host server.    |  |                 | host server.   |  |                 | host server.    |                                           host server.
-                      |  Connect to     | Allow others to |  |  Connect to     | Allow others to|  |  Connect to     | Allow others to |                                           Allow others to
-                      |  any server     | connect.        |  |  any server     | connect.       |  |  any server     | connect.        |                                           connect.
-                      |                 |                 |  |                 |                |  |                 |                 |
-                      +-----------------------------------+  +----------------------------------+  +-----------------------------------+
-                                                                      |
-                                                                      |
-    +-----------------------------------+                             |                                              +-----------------------------------+
-    | Android                   Client  |                             |                                              | iOS                       Client  |
-    +-----------------------------------+                             v                                              +-----------------------------------+
-    | Run like client | Run like server |                    +----------------------------------+                    | Run like client | Run like server |
-    +-----------------------------------+                    |         Dedicated server         |                    +-----------------------------------+
-    |                 |                 |                    +----------------------------------+                    |                 |                 |
-    |                 |                 |                    |                                  |                    |                 |                 |
-    |  Solo play      | Client become   |                    |                                  |                    |  Solo play      | Client become   |
-    |                 | host server.    |          +-------->+                                  |                    |                 | host server.    |
-    |  Connect to     | Allow others to |          |         |                                  |                    |  Connect to     | Allow others to |
-    |  any server     | connect.        |          |         |                                  |                    |  any server     | connect.        |
-    |                 |                 |          |         +----------------------------------+                    |                 |                 |
-    +-----------------------------------+          |                                                                 +-----------------------------------+
-           |                                       |
-           |                                       |
-           |                                       |
-           |                                       |         +-----------------------------------+
-           +---------------------------------------+         | iOS                       Client  |
-                                                             +-----------------------------------+
-                                                             | Run like client | Run like server |
-                                                             +-----------------------------------+
-                                                             |                 |                 |
-                                                             |                 | Not possible    |
-                                                             |  Solo play      |                 |
-                                                             |                 |                 |
-                                                             |  Connect to     |                 |
-                                                             |  any server     |                 |
-                                                             |                 |                 |
-                                                             +-----------------------------------+
-
+                  +-----------------------------------+  +----------------------------------+  +-----------------------------------+
+                  | Windows 10 OS             Client  |  | Linux OS                 Client  |  | MacOS                     Client  |
+                  +-----------------+-----------------+  +-----------------+----------------+  +-----------------+-----------------+
+                  | Run like client | Run like server |  | Run like client | Run like server|  | Run like client | Run like server |
+                  +-----------------------------------+  +----------------------------------+  +-----------------------------------+
+                  |                 |                 |  |                 |                |  |                 |                 |
+                  |                 |                 |  |                 |                |  |                 |                 |
+                  |  Solo play      | Client become   |  |  Solo play      | Client become  |  |  Solo play      | Client become   |
+                  |                 | host server.    |  |                 | host server.   |  |                 | host server.    |
+                  |  Connect to     | Allow others to |  |  Connect to     | Allow others to|  |  Connect to     | Allow others to |
+                  |  any server     | connect.        |  |  any server     | connect.       |  |  any server     | connect.        |
+                  |                 |                 |  |                 |                |  |                 |                 |
+                  +-----------------+-----------------+  +--------+--------+----------------+  +-----------------+-------^----+----+
+                                                                  |                                                      |    ^
+                                                                  |                                         +------------+    |
++-----------------------------------+                             |Scenario 1                               |      <----------+
+| Android                   Client  |                             |                                         |      |
++-----------------+-----------------+                             v                                         |      |   +-----------------------------------+
+| Run like client | Run like server |                    +--------+-------------------------+               |      |   | HTML5                     Client  |
++-----------------------------------+                    |         Dedicated server         |               |      |   +-----------------+-----------------+
+|                 |                 |                    +----------------------------------+               |      |   | Run like client | X               |
+|                 |                 |                    | Can be public also private.      |               |      |   +-----------------------------------+
+|  Solo play      | Client become   |                    |                                  |               | Scenario2|                 |                 |
+|                 | host server.    |          +-------->+                                  |               |      |   |                 | Basic role of   |
+|  Connect to     | Allow others to |          |         |                                  |               |      |   |  Solo play      | web browser     |
+|  any server     | connect.        |          |         |                                  |               |      |   |                 | platform no     |
+|                 |                 |          |         +----------------------------------+               |      +---+  Connect to     | host allowed.   |
++------+----------+-----------------+          |                                                            |          |  any server     |                 |
+       |                                       |                                                            |          |                 |                 |
+       |                                       |                                                            |          +-----------------+-----------------+
+       |                                       |                                                            |
+       |        Scenario 1                     |         +-----------------------------------+          Scenario 2
+       +---------------------------------------+         | iOS                       Client  |              |
+                                                         +-----------------+-----------------+              |
+                                                         | Run like client | Run like server |              |
+                                                         +-----------------------------------+              |
+                                                         |                 |                 |              |    Scenario 2 :
+    Scenario 1 :                                         |                 |                 |              |    MacOs client open game host and posted game info
+    Player with linux Os and android                     |  Solo play      | Client become   |              |    to server list or passed private person to person.
+    decided to play on public master server.             |                 | host server.    |              |    Web client connect to mac os host gameplay also
+    Server list comes from rocket-crafting-server        |  Connect to     | Allow others to |              |    iOS client. Mac OS clietn must open port on
+    or can be private passed person to person.           |  any server     | connect.        |              |    his router (NAT).
+                                                         |                 |                 |              |
+                                                         +--------+--------+-----------------+              |
+                                                                  |                                         |
+                                                                  +-----------------------------------------+
 
 
 [connectivity-works]
