@@ -203,3 +203,11 @@ Successed build dedicated for linux:
 I am quite happy with these results but you have to pay attention to many things.
 
 Be aware that web clients are more vulnerable on error/warnings.
+
+## Licence and Credits
+
+ - Unreal Engine 4.24.3
+
+ - Zombie mesh with skin and animation:
+   https://www.mixamo.com/
+
