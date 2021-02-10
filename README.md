@@ -129,7 +129,12 @@
 
 [connectivity-works]
 </pre>
-  
+
+You need to join team and get your copu of rocket-crafting-server
+https://github.com/orgs/RocketCraftingServer/teams
+https://github.com/RocketCraftingServer/rocket-craft-server
+
+
 ### HTML5 Old Tradicional way
 
   - Use version `4.22`
