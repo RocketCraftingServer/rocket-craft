@@ -1,0 +1,17 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{020AA8B2-4C3E-B8F6-C990-16A79867B1CC}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "SurvivalGame",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"UMG"
+			]
+		}
+	]
+}

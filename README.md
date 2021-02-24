@@ -26,12 +26,16 @@
 #### Register form
 ![](https://github.com/zlatnaspirala/rocket-craft/blob/master/non-project-files/registerform-dev.png)
 
+
+
 #### TODO
 
  - Access any utf8 file data.
  - Handling JSON response/response.
  - Create free of choose to use account session with
    rocketCraftServer.
+ - Create Barbarian Road mashines
+ - 
 
 #### Rocket-craft Blueprints Features:
 
@@ -135,6 +139,14 @@ https://github.com/orgs/RocketCraftingServer/teams
 https://github.com/RocketCraftingServer/rocket-craft-server
 
 
+## Structure
+
+  #### SurvivalGame
+  #### BarbarianRoadMashines
+  #### ShooterGame
+  #### Blanko Classic App 2d
+
+
 ### HTML5 Old Tradicional way
 
   - Use version `4.22`
@@ -194,7 +206,6 @@ Note:
    but we cant use it like client it is enough for playing/using games/apps.
 
 Successed build dedicated for linux:
-
 ```
  PID    USER      PR  NI    VIRT    RES    SHR S   %CPU   %MEM  TIME  + COMMAND
  502469 unreal    20      287952  46860   6600 S   1.7   5.7   1:07.52 BrmServer-Linux
@@ -202,12 +213,14 @@ Successed build dedicated for linux:
 
 I am quite happy with these results but you have to pay attention to many things.
 
-Be aware that web clients are more vulnerable on error/warnings.
-
 ## Licence and Credits
 
- - Unreal Engine 4.24.3
+ - ShooterGame
+   Unreal Engine 4.24.3
+
+ - SurvivalGame
+   MIT License
+   Copyright (c) 2020 Tom Looman
 
  - Zombie mesh with skin and animation:
    https://www.mixamo.com/
-
