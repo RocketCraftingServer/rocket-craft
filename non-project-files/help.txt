@@ -1,0 +1,8 @@
+
+
+
+/etc/letsencrypt/live/maximumroulette.com/fullchain.pem
+/etc/letsencrypt/live/maximumroulette.com/privkey.pem
+/etc/letsencrypt/live/maximumroulette.com/cert.pem
+
+--ssl -s -A /etc/letsencrypt/live/maximumroulette.com/fullchain.pem -K /etc/letsencrypt/live/maximumroulette.com/privkey.pem -C /etc/letsencrypt/live/maximumroulette.com/cert.pem -v

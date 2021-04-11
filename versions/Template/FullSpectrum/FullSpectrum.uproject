@@ -1,0 +1,17 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{020AA8B2-4C3E-B8F6-C990-16A79867B1CC}",
+	"Category": "",
+	"Description": "",
+	"Plugins": [
+		{
+			"Name": "VaRest",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/e47be161e7a24e928560290abd5dcc4f"
+		},
+		{
+			"Name": "WebSocketNetworking",
+			"Enabled": true
+		}
+	]
+}
