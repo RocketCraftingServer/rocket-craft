@@ -21,6 +21,12 @@
   Please join the team and participate:
   https://github.com/orgs/RocketCraftingServer/teams/rocketcraftingteam
 
+
+### Video YT - Beta testing
+
+https://www.youtube.com/watch?v=3w-0MX4BA6c&ab_channel=javascriptfanatic
+
+
 ### Screenshots:
 
 #### Register form
