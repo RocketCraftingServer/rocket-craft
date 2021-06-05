@@ -26,6 +26,8 @@
 
 https://www.youtube.com/watch?v=3w-0MX4BA6c&ab_channel=javascriptfanatic
 
+Beta live demo link [dedicated server runned] Use connect for master server
+, play solo(for web) - open your own host (other platforms).
 
 ### Screenshots:
 
