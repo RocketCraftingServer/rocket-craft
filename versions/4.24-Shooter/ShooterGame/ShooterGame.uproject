@@ -71,6 +71,10 @@
 		{
 			"Name": "Gauntlet",
 			"Enabled": true
+		},
+		{
+			"Name": "WebSocketNetworking",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
