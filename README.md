@@ -1,12 +1,20 @@
 
 # Rocket Craft
+
 ### Unreal Engine Project
 ### Based on `Unreal Motion Graphics` to create 2d UI elements.
+### also used some of best project 3dgames templates.
+
 ### UNDERCONSTRUCT
+
 #### I choose the best solution for developing multiple platforms. (Rocket is alias for ue).
 #### 3D graphics is optimal you can use any standard features from UE4.24.
 #### Version `Full Spectar`
-#### Nikola https://maximumroulette.com 2021
+#### Created by Nikola Lukic https://maximumroulette.com 2021
+
+### Live demo link with options to use dedicated server -> 
+#### http://rocketcraft.maximumroulette.com
+
 
 - Use Unreal engine to create classic 2d context applications.
   Similar to the standard web application.
@@ -26,6 +34,8 @@
 
 https://www.youtube.com/watch?v=3w-0MX4BA6c&ab_channel=javascriptfanatic
 
+Beta live demo link [dedicated server runned] Use connect for master server
+, play solo(for web) - open your own host (other platforms).
 
 ### Screenshots:
 
@@ -34,18 +44,13 @@ https://www.youtube.com/watch?v=3w-0MX4BA6c&ab_channel=javascriptfanatic
 
 
 
-#### TODO
+### TODO:
 
- - Access any utf8 file data.
- - Handling JSON response/response.
  - Create free of choose to use account session with
    rocketCraftServer.
- - Create Barbarian Road mashines
- - 
+ 
 
-#### Rocket-craft Blueprints Features:
-
- - Access JSON file data from any web server.
+### Rocket-craft main block architecture :
      
 <pre>
                                                +-----------------------------------------------+
