@@ -42,7 +42,8 @@ Beta live demo link [dedicated server runned] Use connect for master server
 #### Register form
 ![](https://github.com/zlatnaspirala/rocket-craft/blob/master/non-project-files/registerform-dev.png)
 
-
+#### Barbaarian road mashines 
+![](https://github.com/zlatnaspirala/rocket-craft/blob/master/non-project-files/barbarian-road-mashines.png)
 
 ### TODO:
 
@@ -145,9 +146,9 @@ Beta live demo link [dedicated server runned] Use connect for master server
 [connectivity-works]
 </pre>
 
-You need to join team and get your copu of rocket-crafting-server
-https://github.com/orgs/RocketCraftingServer/teams
-https://github.com/RocketCraftingServer/rocket-craft-server
+You need to join team and get your copy of rocket-crafting-server: 
+ - https://github.com/orgs/RocketCraftingServer/teams 
+ - https://github.com/RocketCraftingServer/rocket-craft-server
 
 
 ## Structure
@@ -155,7 +156,7 @@ https://github.com/RocketCraftingServer/rocket-craft-server
   #### SurvivalGame
   #### BarbarianRoadMashines
   #### ShooterGame
-  #### Blanko Classic App 2d
+  #### Blanko App -> FullSpectrum
 
 
 ### HTML5 Old Tradicional way
@@ -163,17 +164,22 @@ https://github.com/RocketCraftingServer/rocket-craft-server
   - Use version `4.22`
   No need for build engine from source for client client-server.
   opengles2.0 or 3.1
+  In this project i prefered 4.24.3 it is litle more complex to 
+  get working solution but it is better.
   
 ### HTML5/webGL New way:
 
-  - Only opengles 3.1 maybe 2.0 ??? from html5 docs repo.
+  - opengles 3.1 / 2.0 (ready for deplacment but still present) from html5 docs repo.
 
-  Version Moder solution: 
+  Version Moder solution:
   UnrealEngine-4.24.3-html5-1.39.18
   UnrealEngine-4.24.3-html default branch
 
-  Under folder 4.24.0/
-  Maybe can be full solution for now!
+  Under folder 4.24.0/  Barbarian Road Mashines:
+
+  Beta testing:
+  https://www.youtube.com/watch?v=3w-0MX4BA6c
+
 
  Download default html branch or use 
  https://github.com/UnrealEngineHTML5/UnrealEngine/tree/4.24.3-html5-1.39.18
