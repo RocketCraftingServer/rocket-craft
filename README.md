@@ -5,16 +5,14 @@
 ### Based on `Unreal Motion Graphics` to create 2d UI elements.
 ### also used some of best project 3dgames templates.
 
-### UNDERCONSTRUCT
-
 #### I choose the best solution for developing multiple platforms. (Rocket is alias for ue).
 #### 3D graphics is optimal you can use any standard features from UE4.24.
 #### Version `Full Spectar`
 #### Created by Nikola Lukic https://maximumroulette.com 2021
 
-### Live demo link with options to use dedicated server -> 
+### Live demo link with options to use dedicated server ->
+#### Dedicated server is not active non-stop
 #### http://rocketcraft.maximumroulette.com
-
 
 - Use Unreal engine to create classic 2d context applications.
   Similar to the standard web application.
@@ -156,10 +154,10 @@ You need to join team and get your copy of rocket-crafting-server:
   #### SurvivalGame
   #### BarbarianRoadMashines
   #### ShooterGame
-  #### Blanko App -> FullSpectrum
+  #### Blanko App -> Template/FullSpectrum
 
 
-### HTML5 Old Tradicional way
+### HTML5 Old Tradicional way (deplaced)
 
   - Use version `4.22`
   No need for build engine from source for client client-server.
@@ -167,7 +165,7 @@ You need to join team and get your copy of rocket-crafting-server:
   In this project i prefered 4.24.3 it is litle more complex to 
   get working solution but it is better.
   
-### HTML5/webGL New way:
+### HTML5/webGL New way (build engine from source):
 
   - opengles 3.1 / 2.0 (ready for deplacment but still present) from html5 docs repo.
 
@@ -197,7 +195,7 @@ You need to join team and get your copy of rocket-crafting-server:
   git clone -b https://github.com/UnrealEngineHTML5/UnrealEngine
 ```
 
-#### Android 
+#### Android
 
   - Google play licence key:
 
@@ -229,6 +227,37 @@ Successed build dedicated for linux:
 ```
 
 I am quite happy with these results but you have to pay attention to many things.
+
+
+## Help for c++ template projects
+
+<pre>
+This is only for ue from source case (when you wanna dedicated server builds) in other way just use `build` project,
+for full rebuild use `rebuild` project.
+
+The option you are referring to (Build -> Project Only -> Clean Only "ProjectName") is a Visual Studio option,
+not one that is exclusive to Unreal Engine 4. What actually happens when a Project Only Clean process is begun,
+is that Visual Studio not only cleans the Project, but it also checks to see if it is able to clean anything that
+the Project depends on. Since you are using a version of the Engine that is built from source code, Visual Studio
+includes that dependency in the Clean process, which ends up requiring a full build of the Engine. The same occurs
+if you attempt to rebuild the project only. If you wish to be able to perform a clean at only the project level,
+you would need to navigate to where your project is located in a Windows Explorer window. In the root project folder,
+delete the Binaries, Build, DerivedDataCache, and Intermediate folders. Right-click on the project's .uproject file 
+and select the Generate Visual Studio project files option (this will recreate the Intermediate folder). Open the project
+solution in Visual Studio and Build the project (this will recreate the Binaries and Build folders). When the build 
+completes in Visual Studio, double-click the project's .uproject file to open it in the Editor(this will recreate 
+the DerivedDataCache folder).You should now have a "Clean" project without needing to rebuild the Engine.
+Source: https://answers.unrealengine.com/questions/100921/view.html?sort=oldest
+</pre>
+
+## Project shooter - Hang3d new version
+
+  - This is c++ template project.
+
+## Project Survival
+
+  - This is c++ template project.
+
 
 ## Licence and Credits
 

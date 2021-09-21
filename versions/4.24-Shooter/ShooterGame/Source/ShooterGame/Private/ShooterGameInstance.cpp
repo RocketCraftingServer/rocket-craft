@@ -1015,6 +1015,17 @@ bool UShooterGameInstance::HostQuickSession(ULocalPlayer& LocalPlayer, const FOn
 	return false;
 }
 
+void UShooterGameInstance::OpenSingleGame(const FString& InTravelURL) {
+
+	ShowLoadingScreen();
+	GotoState(ShooterGameInstanceState::Playing);
+
+	// Travel to the specified match URL
+	TravelURL = InTravelURL;
+	GetWorld()->ServerTravel(TravelURL);
+
+}
+
 bool UShooterGameInstance::HostGame(ULocalPlayer* LocalPlayer, const FString& GameType, const FString& InTravelURL)
 {
 	if (GetOnlineMode() == EOnlineMode::Offline)

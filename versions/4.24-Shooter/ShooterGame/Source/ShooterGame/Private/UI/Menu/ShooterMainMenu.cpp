@@ -290,6 +290,24 @@ void FShooterMainMenu::Construct(TWeakObjectPtr<UShooterGameInstance> _GameInsta
 
 #else
 		TSharedPtr<FShooterMenuItem> MenuItem;
+
+		// Update for www/html5 platform
+		FString checkPlatform = UGameplayStatics::GetPlatformName();
+
+		// if (UGameplayStatics::GetPlatformName() == "HTML5") {
+
+		UE_LOG(LogTemp, Warning, TEXT("ADD ONline menu items PLATFORM: HTML5 = %s"), *checkPlatform);
+		// Modification NL test open level OpenSingleGame
+		MenuItem = MenuHelper::AddMenuItem(RootMenuItem, LOCTEXT("Online", "PLAYING ONLINE"));
+		MenuHelper::AddMenuItemSP(MenuItem, LOCTEXT("Single", "LEARN TABLE"), this, &FShooterMainMenu::OnJoinSinglePlay);
+		MenuHelper::AddMenuItemSP(MenuItem, LOCTEXT("MasterServer1", "MASTER SERVER 1"), this, &FShooterMainMenu::OnJoinMasterDedicatedServer);
+		MenuHelper::AddMenuItemSP(MenuItem, LOCTEXT("MasterServer2", "MASTER SERVER 2"), this, &FShooterMainMenu::OnJoinMasterDedicatedServer2);
+
+		// }
+
+		UE_LOG(LogTemp, Warning, TEXT("PLATFORM NAME = %s"), *checkPlatform);
+		// GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, checkPlatform, false);
+
 		// HOST menu option
 		MenuItem = MenuHelper::AddMenuItem(RootMenuItem, LOCTEXT("Host", "HOST"));
 
@@ -1234,6 +1252,44 @@ void FShooterMainMenu::OnJoinSelected()
 #endif
 
 	MenuWidget->EnterSubMenu();
+}
+
+void FShooterMainMenu::OnJoinMasterDedicatedServer()
+{
+	if (GameInstance.IsValid())
+	{
+		// GameInstance->OpenSingleGame("open Sanctuary");
+		UGameViewportClient* const Viewport = GameInstance->GetGameViewportClient();
+		if (ensure(Viewport))
+		{
+			Viewport->ConsoleCommand("open x.x.x.x);
+		}
+	}
+}
+
+void FShooterMainMenu::OnJoinMasterDedicatedServer2()
+{
+	if (GameInstance.IsValid())
+	{
+		UGameViewportClient* const Viewport = GameInstance->GetGameViewportClient();
+		if (ensure(Viewport))
+		{
+			Viewport->ConsoleCommand("open 159.89.8.40");
+		}
+	}
+}
+
+void FShooterMainMenu::OnJoinSinglePlay()
+{
+	if (GameInstance.IsValid())
+	{
+		// GameInstance->OpenSingleGame("open Sanctuary");
+		UGameViewportClient* const Viewport = GameInstance->GetGameViewportClient();
+		if (ensure(Viewport))
+		{
+			Viewport->ConsoleCommand("open Sanctuary?Bots=8");
+		}
+	}
 }
 
 void FShooterMainMenu::OnJoinServer()
