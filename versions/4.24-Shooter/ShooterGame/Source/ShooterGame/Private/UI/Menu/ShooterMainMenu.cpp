@@ -298,8 +298,12 @@ void FShooterMainMenu::Construct(TWeakObjectPtr<UShooterGameInstance> _GameInsta
 
 		UE_LOG(LogTemp, Warning, TEXT("ADD ONline menu items PLATFORM: HTML5 = %s"), *checkPlatform);
 		// Modification NL test open level OpenSingleGame
-		MenuItem = MenuHelper::AddMenuItem(RootMenuItem, LOCTEXT("Online", "PLAYING ONLINE"));
-		MenuHelper::AddMenuItemSP(MenuItem, LOCTEXT("Single", "LEARN TABLE"), this, &FShooterMainMenu::OnJoinSinglePlay);
+		MenuItem = MenuHelper::AddMenuItem(RootMenuItem, LOCTEXT("InstantPlay", "INSTANT PLAY"));
+		MenuHelper::AddMenuItemSP(MenuItem, LOCTEXT("Learn", "LEARN TABLE"), this, &FShooterMainMenu::OnJoinSingleLearn);
+		MenuHelper::AddMenuItemSP(MenuItem, LOCTEXT("Easy", "EASY"), this, &FShooterMainMenu::OnJoinSingleEasy);
+		MenuHelper::AddMenuItemSP(MenuItem, LOCTEXT("Middle", "MIDDLE"), this, &FShooterMainMenu::OnJoinSingleMid);
+		MenuHelper::AddMenuItemSP(MenuItem, LOCTEXT("Hard", "HARD"), this, &FShooterMainMenu::OnJoinSingleHard);
+		MenuHelper::AddMenuItemSP(MenuItem, LOCTEXT("Nightmare", "NIGHTMARE"), this, &FShooterMainMenu::OnJoinSingleNightmare);
 		MenuHelper::AddMenuItemSP(MenuItem, LOCTEXT("MasterServer1", "MASTER SERVER 1"), this, &FShooterMainMenu::OnJoinMasterDedicatedServer);
 		MenuHelper::AddMenuItemSP(MenuItem, LOCTEXT("MasterServer2", "MASTER SERVER 2"), this, &FShooterMainMenu::OnJoinMasterDedicatedServer2);
 
@@ -1262,7 +1266,7 @@ void FShooterMainMenu::OnJoinMasterDedicatedServer()
 		UGameViewportClient* const Viewport = GameInstance->GetGameViewportClient();
 		if (ensure(Viewport))
 		{
-			Viewport->ConsoleCommand("open x.x.x.x);
+			Viewport->ConsoleCommand("open 64.225.106.140");
 		}
 	}
 }
@@ -1279,7 +1283,55 @@ void FShooterMainMenu::OnJoinMasterDedicatedServer2()
 	}
 }
 
-void FShooterMainMenu::OnJoinSinglePlay()
+void FShooterMainMenu::OnJoinSingleLearn()
+{
+	if (GameInstance.IsValid())
+	{
+		UGameViewportClient* const Viewport = GameInstance->GetGameViewportClient();
+		if (ensure(Viewport))
+		{
+			Viewport->ConsoleCommand("open Sanctuary?Bots=0");
+		}
+	}
+}
+
+void FShooterMainMenu::OnJoinSingleEasy()
+{
+	if (GameInstance.IsValid())
+	{
+		UGameViewportClient* const Viewport = GameInstance->GetGameViewportClient();
+		if (ensure(Viewport))
+		{
+			Viewport->ConsoleCommand("open Sanctuary?Bots=1");
+		}
+	}
+}
+
+void FShooterMainMenu::OnJoinSingleMid()
+{
+	if (GameInstance.IsValid())
+	{
+		UGameViewportClient* const Viewport = GameInstance->GetGameViewportClient();
+		if (ensure(Viewport))
+		{
+			Viewport->ConsoleCommand("open Sanctuary?Bots=3");
+		}
+	}
+}
+
+void FShooterMainMenu::OnJoinSingleHard()
+{
+	if (GameInstance.IsValid())
+	{
+		UGameViewportClient* const Viewport = GameInstance->GetGameViewportClient();
+		if (ensure(Viewport))
+		{
+			Viewport->ConsoleCommand("open Sanctuary?Bots=6");
+		}
+	}
+}
+
+void FShooterMainMenu::OnJoinSingleNightmare()
 {
 	if (GameInstance.IsValid())
 	{

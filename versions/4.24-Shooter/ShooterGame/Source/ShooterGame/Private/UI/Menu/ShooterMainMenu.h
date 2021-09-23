@@ -216,8 +216,14 @@ protected:
 	/** Join server, but login necessary first. */
 	void OnJoinServerLoginRequired();
 
+	/** Modification NL - single option */
+	void OnJoinSingleLearn();
+	void OnJoinSingleEasy();
+	void OnJoinSingleMid();
+	void OnJoinSingleHard();
+	void OnJoinSingleNightmare();
+
 	/** Modification NL */
-	void OnJoinSinglePlay();
 	void OnJoinMasterDedicatedServer();
 	void OnJoinMasterDedicatedServer2();
 
