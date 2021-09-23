@@ -1,5 +1,5 @@
 
-# Rocket Craft
+# Rocket Craft Project
 
 ### Unreal Engine Project
 ### Based on `Unreal Motion Graphics` to create 2d UI elements.
@@ -10,9 +10,24 @@
 #### Version `Full Spectar`
 #### Created by Nikola Lukic https://maximumroulette.com 2021
 
-### Live demo link with options to use dedicated server ->
-#### Dedicated server is not active non-stop
+#### Live demo link with options to use dedicated server
+
+#### Note: Dedicated server is not active non-stop
+
+## Project list:
+
+### - Shooter FPS - future Hang3d 2 [c++]
+#### http://maximumroulette.com/apps/shooter/ShooterGame.html
+
+### - Barbarian Road Mashines - race / zombies game [BP]
 #### http://rocketcraft.maximumroulette.com
+
+### - Survival Zombie shooting game [c++]
+#### No link for now
+
+### FullSpectrum - Empty project [BP]
+
+## Description
 
 - Use Unreal engine to create classic 2d context applications.
   Similar to the standard web application.
@@ -46,14 +61,15 @@ Use connect for master server
 #### Register form
 ![](https://github.com/zlatnaspirala/rocket-craft/blob/master/non-project-files/registerform-dev.png)
 
-#### Barbaarian road mashines 
+#### Barbaarian road mashines
 ![](https://github.com/zlatnaspirala/rocket-craft/blob/master/non-project-files/barbarian-road-mashines.png)
 
 ### TODO:
 
  - Create free of choose to use account session with
    rocketCraftServer.
- 
+
+ - Add connection between Shoooter and rocketCraftionServer, create leaderboard for every listed game.
 
 ### Rocket-craft main block architecture :
      
