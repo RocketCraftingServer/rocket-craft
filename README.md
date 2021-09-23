@@ -30,10 +30,16 @@
 
 ### Video YT - Beta testing
 
+#### Barbarian Road Mashines
 https://www.youtube.com/watch?v=3w-0MX4BA6c&ab_channel=javascriptfanatic
 
-Beta live demo link [dedicated server runned] Use connect for master server
-, play solo(for web) - open your own host (other platforms).
+Beta live demo link [dedicated server runned]
+Use connect for master server
+ - play solo
+ - open your own host (web platform no support for host game).
+ - play online realtime multiplayer 
+   (html5) connected to the dedicated server (centOS 8.3 [must be public])
+ - play any platform via dedicated server
 
 ### Screenshots:
 
@@ -231,24 +237,27 @@ I am quite happy with these results but you have to pay attention to many things
 
 ## Help for c++ template projects
 
-<pre>
+<i>
 This is only for ue from source case (when you wanna dedicated server builds) in other way just use `build` project,
 for full rebuild use `rebuild` project.
 
-The option you are referring to (Build -> Project Only -> Clean Only "ProjectName") is a Visual Studio option,
-not one that is exclusive to Unreal Engine 4. What actually happens when a Project Only Clean process is begun,
-is that Visual Studio not only cleans the Project, but it also checks to see if it is able to clean anything that
-the Project depends on. Since you are using a version of the Engine that is built from source code, Visual Studio
-includes that dependency in the Clean process, which ends up requiring a full build of the Engine. The same occurs
-if you attempt to rebuild the project only. If you wish to be able to perform a clean at only the project level,
-you would need to navigate to where your project is located in a Windows Explorer window. In the root project folder,
-delete the Binaries, Build, DerivedDataCache, and Intermediate folders. Right-click on the project's .uproject file 
-and select the Generate Visual Studio project files option (this will recreate the Intermediate folder). Open the project
-solution in Visual Studio and Build the project (this will recreate the Binaries and Build folders). When the build 
+The option you are referring to (Build -> Project Only -> Clean Only "ProjectName") 
+is a Visual Studio option, not one that is exclusive to Unreal Engine 4. What actually
+happens when a Project Only Clean process is begun, is that Visual Studio not only
+cleans the Project, but it also checks to see if it is able to clean anything that 
+the Project depends on. Since you are using a version of the Engine that is built from
+source code, Visual Studio includes that dependency in the Clean process, which ends up
+requiring a full build of the Engine. The same occurs if you attempt to rebuild 
+the project only. If you wish to be able to perform a clean at only the project level,
+you would need to navigate to where your project is located in a Windows Explorer window.
+In the root project folder, delete the Binaries, Build, DerivedDataCache, and Intermediate
+folders. Right-click on the project's .uproject file and select the Generate Visual Studio
+project files option (this will recreate the Intermediate folder). Open the project solution
+in Visual Studio and Build the project (this will recreate the Binaries and Build folders). When the build 
 completes in Visual Studio, double-click the project's .uproject file to open it in the Editor(this will recreate 
 the DerivedDataCache folder).You should now have a "Clean" project without needing to rebuild the Engine.
 Source: https://answers.unrealengine.com/questions/100921/view.html?sort=oldest
-</pre>
+</i>
 
 ## Project shooter - Hang3d new version
 
