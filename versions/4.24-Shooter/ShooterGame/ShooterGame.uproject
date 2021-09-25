@@ -87,7 +87,9 @@
 		"WindowsNoEditor",
 		"XboxOne",
 		"Switch",
-		"Quail"
+		"Quail",
+		"HTML5",
+		"Android"
 	],
 	"EpicSampleNameHash": "3868556100"
 }

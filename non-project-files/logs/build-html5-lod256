@@ -1,0 +1,29 @@
+
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: DDC Summary Stats
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: =================
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: TotalGetHits    =      1511
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: TotalGets       =      1511
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: TotalGetHitPct  =  1.000000
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: LocalGetHitPct  =  0.913964
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: SharedGetHitPct =  0.000000
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: OtherGetHitPct  =  0.086036
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: GetMissPct      =  0.000000
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: TotalPutHits    =         0
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: TotalPuts       =         0
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: TotalPutHitPct  =  0.000000
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: PutMissPct      =  0.000000
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display:
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: DDC Resource Stats
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: =======================================================================================================
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: Texture (Streaming)                            13.47                   0.00             0          9.23
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: MaterialShader                                  6.42                   6.42             0         14.14
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: PhysX (BodySetup)                               4.88                   4.88             0          4.13
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: StaticMesh                                      0.97                   0.97             0          1.38
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: GlobalShader                                    0.86                   0.86             0          0.42
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: NavCollision                                    0.33                   0.33             0          0.02
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: Texture (Inline)                                0.12                   0.12             0         75.28
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: SkeletalMesh                                    0.05                   0.05             0          3.38
+UATHelper: Packaging (HTML5):   LogCookCommandlet: Display: SoundWave                                       0.00                   0.00             0          9.18
+UATHelper: Packaging (HTML5):   LogInit: Display:
