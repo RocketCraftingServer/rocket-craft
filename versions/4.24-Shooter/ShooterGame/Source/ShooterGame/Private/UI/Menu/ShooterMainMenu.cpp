@@ -299,16 +299,14 @@ void FShooterMainMenu::Construct(TWeakObjectPtr<UShooterGameInstance> _GameInsta
 		UE_LOG(LogTemp, Warning, TEXT("ADD ONline menu items PLATFORM: HTML5 = %s"), *checkPlatform);
 		// Modification NL test open level OpenSingleGame
 		MenuItem = MenuHelper::AddMenuItem(RootMenuItem, LOCTEXT("InstantPlay", "INSTANT PLAY"));
+		MenuHelper::AddMenuItemSP(MenuItem, LOCTEXT("MasterServer2", "MULTIPLAYER AREA"), this, &FShooterMainMenu::OnJoinMasterDedicatedServer2);
 		MenuHelper::AddMenuItemSP(MenuItem, LOCTEXT("Learn", "LEARN TABLE"), this, &FShooterMainMenu::OnJoinSingleLearn);
 		MenuHelper::AddMenuItemSP(MenuItem, LOCTEXT("Easy", "EASY"), this, &FShooterMainMenu::OnJoinSingleEasy);
 		MenuHelper::AddMenuItemSP(MenuItem, LOCTEXT("Middle", "MIDDLE"), this, &FShooterMainMenu::OnJoinSingleMid);
 		MenuHelper::AddMenuItemSP(MenuItem, LOCTEXT("Hard", "HARD"), this, &FShooterMainMenu::OnJoinSingleHard);
 		MenuHelper::AddMenuItemSP(MenuItem, LOCTEXT("Nightmare", "NIGHTMARE"), this, &FShooterMainMenu::OnJoinSingleNightmare);
-		MenuHelper::AddMenuItemSP(MenuItem, LOCTEXT("MasterServer1", "MASTER SERVER 1"), this, &FShooterMainMenu::OnJoinMasterDedicatedServer);
-		MenuHelper::AddMenuItemSP(MenuItem, LOCTEXT("MasterServer2", "MASTER SERVER 2"), this, &FShooterMainMenu::OnJoinMasterDedicatedServer2);
-
-		// }
-
+		// MenuHelper::AddMenuItemSP(MenuItem, LOCTEXT("MasterServer1", "MASTER SERVER 1"), this, &FShooterMainMenu::OnJoinMasterDedicatedServer);
+		
 		UE_LOG(LogTemp, Warning, TEXT("PLATFORM NAME = %s"), *checkPlatform);
 		// GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, checkPlatform, false);
 

@@ -60,6 +60,13 @@ Use connect for master server
 #### Barbaarian road mashines
 ![](https://github.com/zlatnaspirala/rocket-craft/blob/master/non-project-files/barbarian-road-mashines.png)
 
+#### Shooter game - upgraded Hang3d Nightmare
+![](https://github.com/zlatnaspirala/rocket-craft/blob/master/non-project-files/hang2-menu.png)
+
+#### Shooter game - upgraded Hang3d Nightmare
+![](https://github.com/zlatnaspirala/rocket-craft/blob/master/non-project-files/shooter1.png)
+
+
 ### TODO:
 
  - Create free of choose to use account session with
