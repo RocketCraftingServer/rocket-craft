@@ -1,4 +1,5 @@
 
+#include "Items/SDamageType.h"
 #include "STypes.generated.h"
 #pragma once
 

@@ -5,6 +5,8 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Player/SCharacter.h"
+#include "Particles/ParticleSystemComponent.h" // nikola
+#include "Components/AudioComponent.h" // nikola
 #include "SWeapon.generated.h"
 
 UENUM()

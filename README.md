@@ -230,6 +230,8 @@ You need to join team and get your copy of rocket-crafting-server:
 
 #### Windows - Linux - Mac os SETUP unreal engine from source:
 
+ You not need to manual install emscripten if you already have emscripten jusr remove it from env paths.
+
 ```
   Setup.bat/Setup.command/Setup.sh                                              may take up to an hour or so
   HTML5Setup.sh                                                                 may take up to an hour or so
