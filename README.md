@@ -226,7 +226,11 @@ You need to join team and get your copy of rocket-crafting-server:
 
 ```js
   keytool -genkey -v -keystore barbarian-road-mashines-key.keystore -alias barbarian-road-mashines -keyalg RSA -keysize 2048 -validity 10000
+  keytool -genkey -v -keystore zombie-key.keystore -alias zombie -keyalg RSA -keysize 2048 -validity 10000
 ```
+  On windows you can find keytool for example in :
+  `C:\Program Files\Android\Android Studio\jre\bin`
+  Navigate in terminal to the jre bin folder. No need windows git bash.
 
 #### Windows - Linux - Mac os SETUP unreal engine from source:
 
@@ -288,6 +292,9 @@ Source: https://answers.unrealengine.com/questions/100921/view.html?sort=oldest
 
   - This is c++ template project.
 
+## Realistic rendering ue4 example
+ - I will try max powered graphics for this example
+   Still must to have healt builds for all targets.
 
 ## Licence and Credits
 
