@@ -292,17 +292,23 @@ Source: https://answers.unrealengine.com/questions/100921/view.html?sort=oldest
 ## Project shooter - Hang3d new version
 
   - This is c++ template project.
+    Must be optimised little more for mobile targets.
 
 ## Project Survival
 
   - This is c++ template project.
+    Modification: Adding fire to be blueprint accessible, adding fire button 
+    option for jump also raffal shooting button. [WIP]
+    Must be optimised little more for mobile targets.
 
 ## Realistic rendering ue4 example
+
  - I will try max powered graphics for this example
    Still must to have healt builds for all targets.
 
 ## Licence and Credits
 
+ - VAST ue4 plugin
  - ShooterGame
    Unreal Engine 4.24.3
 
