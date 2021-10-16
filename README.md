@@ -66,6 +66,11 @@ Use connect for master server
 #### Shooter game - upgraded Hang3d Nightmare
 ![](https://github.com/zlatnaspirala/rocket-craft/blob/master/non-project-files/shooter1.png)
 
+#### Shoot the zombie - upgraded from Survival game.
+![](https://github.com/zlatnaspirala/rocket-craft/blob/master/non-project-files/zombie1.png)
+
+#### Shoot the zombie 
+![](https://github.com/zlatnaspirala/rocket-craft/blob/master/non-project-files/zombie2.png)
 
 ### TODO:
 
