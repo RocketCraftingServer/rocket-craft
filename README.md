@@ -15,8 +15,8 @@ Created by Nikola Lukic https://maximumroulette.com 2021
 ### - Barbarian Road Mashines - race / zombies game [BP]
 #### http://rocketcraft.maximumroulette.com
 
-### - Survival Zombie shooting game [c++]
-#### No link for now
+### - ShootTheZombie2 based on Survival Zombie shooting game [c++]
+#### https://maximumroulette.com/apps/shoot-the-zombie
 
 ### FullSpectrum - Empty project [BP]
 
