@@ -218,9 +218,11 @@ private:
 	void OnReload();
 
 	/* Mapped to input */
+	UFUNCTION(BlueprintCallable, Category = "Character")
 	void OnStartFire();
 
 	/* Mapped to input */
+	UFUNCTION(BlueprintCallable, Category = "Character")
 	void OnStopFire();
 
 	/* Mapped to input */

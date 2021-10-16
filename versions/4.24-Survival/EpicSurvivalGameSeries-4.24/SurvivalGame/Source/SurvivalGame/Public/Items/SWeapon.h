@@ -115,8 +115,10 @@ public:
 
 public:
 
+	UFUNCTION(BlueprintCallable, Category = "Weapon")
 	void StartFire();
 
+	UFUNCTION(BlueprintCallable, Category = "Weapon")
 	void StopFire();
 
 	EWeaponState GetCurrentState() const;
