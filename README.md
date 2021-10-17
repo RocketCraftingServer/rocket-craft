@@ -18,6 +18,9 @@ Created by Nikola Lukic https://maximumroulette.com 2021
 ### - ShootTheZombie2 based on Survival Zombie shooting game [c++]
 #### https://maximumroulette.com/apps/shoot-the-zombie
 
+### - Realistic rendering Ue4 template [BP]
+#### https://maximumroulette.com/apps/realistic-rendering/
+
 ### FullSpectrum - Empty project [BP]
 
 Live demo link with options to use dedicated server.
