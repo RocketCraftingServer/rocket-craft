@@ -66,20 +66,19 @@ Use connect for master server
 #### Shooter game - upgraded Hang3d Nightmare
 ![](https://github.com/zlatnaspirala/rocket-craft/blob/master/non-project-files/shooter1.png)
 
-#### Shoot the zombie - upgraded from Survival game.
+#### Shoot the zombie - upgraded from Survival game
 ![](https://github.com/zlatnaspirala/rocket-craft/blob/master/non-project-files/zombie1.png)
 
-#### Shoot the zombie 
-![](https://github.com/zlatnaspirala/rocket-craft/blob/master/non-project-files/realistic-rendering-512-all-197mb.png)
+#### Shoot the zombie
+![](https://github.com/zlatnaspirala/rocket-craft/blob/master/non-project-files/zombie2.png)
 
 #### Realistic Rendering
-![](https://github.com/zlatnaspirala/rocket-craft/blob/master/non-project-files/zombie2.png)
+![](https://github.com/zlatnaspirala/rocket-craft/blob/master/non-project-files/realistic-rendering-512-all-197mb.png)
 
 ### TODO:
 
  - Create free of choose to use account session with
    rocketCraftServer.
-
  - Add connection between Shoooter and rocketCraftionServer, create leaderboard for every listed game.
 
 ### Rocket-craft main block architecture :
@@ -290,28 +289,46 @@ in Visual Studio and Build the project (this will recreate the Binaries and Buil
 completes in Visual Studio, double-click the project's .uproject file to open it in the Editor(this will recreate 
 the DerivedDataCache folder).You should now have a "Clean" project without needing to rebuild the Engine.
 Source: https://answers.unrealengine.com/questions/100921/view.html?sort=oldest
+
 </i>
 
-## Project shooter - Hang3d new version
+# More explanations
+
+## project BRM
+  - Blueprint project
+  - Integrated with rocketCraftingServer session server.
+  - Works on `http`.
+  - Multiplayer with dedicated integrated.
+
+## Project shooter - Hang3d Nightmare
 
   - This is c++ template project.
-    Must be optimised little more for mobile targets.
+  - Must be optimised little more for mobile targets.
+  - Not integrated with rocketCraftingServer.
+  - Multiplayer with dedicated integrated.
+  - Works on `http`.
 
 ## Project Survival
 
   - This is c++ template project.
-    Modification: Adding fire to be blueprint accessible, adding fire button 
+  - Not integrated with rocketCraftingServer.
+  - Modification: Adding fire to be blueprint accessible, adding fire button 
     option for jump also raffal shooting button. [WIP]
-    Must be optimised little more for mobile targets.
+  - Must be optimised little more for mobile targets.
+  - Works on `https` or `http`.
 
 ## Realistic rendering ue4 example
 
- - I will try max powered graphics for this example
-   Still must to have healt builds for all targets.
+  - Blueprint project
+  - I will try max powered graphics for this example
+  - Still must to have healt builds for all targets.
+  - Not integrated with rocketCraftingServer.
+  - Works on `https` or `http`.
+
 
 ## Licence and Credits
 
- - VAST ue4 plugin
+ - VAST ue4 plugin [json handling in BP]
  - ShooterGame
    Unreal Engine 4.24.3
 
