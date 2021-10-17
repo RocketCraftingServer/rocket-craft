@@ -70,6 +70,9 @@ Use connect for master server
 ![](https://github.com/zlatnaspirala/rocket-craft/blob/master/non-project-files/zombie1.png)
 
 #### Shoot the zombie 
+![](https://github.com/zlatnaspirala/rocket-craft/blob/master/non-project-files/realistic-rendering-512-all-197mb.png)
+
+#### Realistic Rendering
 ![](https://github.com/zlatnaspirala/rocket-craft/blob/master/non-project-files/zombie2.png)
 
 ### TODO:
