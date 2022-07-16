@@ -5,7 +5,7 @@
 ### Based on `Unreal Motion Graphics` to create 2d UI elements also used some of best project 3dgames templates.
 I choose the best solution for developing multiple platforms. (Rocket is alias for ue). 3D graphics is optimal you can use any standard features from UE4.24.
 Version `Full Spectar`
-Created by Nikola Lukic https://maximumroulette.com 2021
+Created by Nikola Lukic https://maximumroulette.com 2022
 
 ## Project list:
 
