@@ -10,5 +10,12 @@ public class ShooterGameEditorTarget : TargetRules
 		Type = TargetType.Editor;
 
 		ExtraModuleNames.Add("ShooterGame");
+
+		// test !!!
+		BuildEnvironment = TargetBuildEnvironment.Unique;
+		bCompileChaos = true;
+		//Note that the following line is not needed for 4.23 or previous versions. 
+		//bUseChaos = true;
+
 	}
 }
