@@ -38,6 +38,9 @@ Note: Dedicated server is not active non-stop.
   for old android 5/6/7/8... os. In other way 4.24 is one of the last
   releases. Future upgrade will be easy.
 
+ - Added support for openGLES 3.1. When you wanna force useage of opengle2.0 i need just to 
+  switvh to the value false from project settings.
+
   Please join the team and participate:
   https://github.com/orgs/RocketCraftingServer/teams/rocketcraftingteam
 
@@ -294,6 +297,9 @@ the DerivedDataCache folder).You should now have a "Clean" project without needi
 Source: https://answers.unrealengine.com/questions/100921/view.html?sort=oldest
 
 </i>
+
+More help at https://github.com/RocketCraftingServer/rocket-craft/blob/master/help.md
+
 
 # More explanations
 

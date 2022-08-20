@@ -10,11 +10,16 @@ Added features:
  - Background sound
  - Doors 
  - Elevators
+ - Apex destruction mesh [not success for now - only on HTML5]
+ - Procedural mesh
  - Map edited
 
 Game play is classic area type of FPS.
 
+## Procedural mesh
 
+  - Add AllowCPU true from static mesh editor.
+  
 
 ## Problems
 
@@ -36,3 +41,4 @@ So to sum up: use soft object references if you’re experiencing strange issues
 
 
 https://forums.unrealengine.com/t/destructible-mesh-spawning-in-broken-in-packaged-build-wont-respond-to-damage-or-simulate/459848/4
+
