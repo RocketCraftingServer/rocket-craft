@@ -38,8 +38,8 @@ Note: Dedicated server is not active non-stop.
   for old android 5/6/7/8... os. In other way 4.24 is one of the last
   releases. Future upgrade will be easy.
 
- - Added support for openGLES 3.1. When you wanna force useage of opengle2.0 i need just to 
-  switvh to the value false from project settings.
+ - Added support for openGLES 3.1. When you wanna force useage of opengle2.0 need just to 
+  switch to the value `false` from project settings (Support openGL ES1).
 
   Please join the team and participate:
   https://github.com/orgs/RocketCraftingServer/teams/rocketcraftingteam

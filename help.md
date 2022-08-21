@@ -8,10 +8,10 @@ Game avaible also like web application at the link: http://maximumroulette.com/a
 
 Added features:
  - Background sound
- - Doors 
- - Elevators
+ - Doors BP
+ - Elevators BP
  - Apex destruction mesh [not success for now - only on HTML5]
- - Procedural mesh
+ - Procedural mesh possible replace for not working on web apex destruction plugin.
  - Map edited
 
 Game play is classic area type of FPS.
@@ -19,7 +19,7 @@ Game play is classic area type of FPS.
 ## Procedural mesh
 
   - Add AllowCPU true from static mesh editor.
-  
+   Success modify projectice BP for luancher weapon to make trigger procedural mesh slice operation.
 
 ## Problems
 
