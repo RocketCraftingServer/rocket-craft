@@ -9,11 +9,11 @@ Created by Nikola Lukic https://maximumroulette.com 2022
 
 ## Project list:
 
-### - Shooter FPS - future Hang3d 2 [c++]
-#### http://maximumroulette.com/apps/shooter/ShooterGame.html
+### - Shooter FPS - future Hang3d Nightmare [c++] MULTIPLAYER ACTIVE [opengles300]
+#### http://maximumroulette.com/apps/hang3d/
 
 ### - Barbarian Road Mashines - race / zombies game [BP]
-#### http://rocketcraft.maximumroulette.com
+#### https://maximumroulette.com/apps/barbarian-road-mashines/beta/
 
 ### - ShootTheZombie2 based on Survival Zombie shooting game [c++]
 #### https://maximumroulette.com/apps/shoot-the-zombie
