@@ -33,10 +33,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "OnlineSubsystemSteam",
-			"Enabled": true
-		},
-		{
 			"Name": "OnlineSubsystemPS4",
 			"Enabled": true,
 			"WhitelistPlatforms": [
@@ -58,10 +54,6 @@
 		},
 		{
 			"Name": "OnlineSubsystemNull",
-			"Enabled": true
-		},
-		{
-			"Name": "SteamController",
 			"Enabled": true
 		},
 		{
@@ -87,6 +79,24 @@
 		{
 			"Name": "ApexDestruction",
 			"Enabled": true
+		},
+		{
+			"Name": "SteamVR",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Linux",
+				"Mac"
+			]
+		},
+		{
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
+		},
+		{
+			"Name": "SteamController",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
@@ -97,7 +107,9 @@
 		"Switch",
 		"Quail",
 		"HTML5",
-		"Android"
+		"Android",
+		"LinuxNoEditor",
+		"LinuxAArch64NoEditor"
 	],
 	"EpicSampleNameHash": "3868556100"
 }
